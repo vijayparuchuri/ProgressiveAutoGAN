@@ -1,0 +1,34 @@
+[{"stream_name":"stderr","time":12.440444857,"data":"[IPKernelApp] WARNING | Error in loading extension: bq_stats\n"}
+,{"stream_name":"stderr","time":12.440528896,"data":"Check your config files in /root/.ipython/profile_default\n"}
+,{"stream_name":"stderr","time":12.440535181,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":12.440539611,"data":"  File \"/opt/conda/lib/python3.10/site-packages/IPython/core/shellapp.py\", line 282, in init_extensions\n"}
+,{"stream_name":"stderr","time":12.440543758,"data":"    self.shell.extension_manager.load_extension(ext)\n"}
+,{"stream_name":"stderr","time":12.440547581,"data":"  File \"/opt/conda/lib/python3.10/site-packages/IPython/core/extensions.py\", line 76, in load_extension\n"}
+,{"stream_name":"stderr","time":12.440551594,"data":"    return self._load_extension(module_str)\n"}
+,{"stream_name":"stderr","time":12.440555505,"data":"  File \"/opt/conda/lib/python3.10/site-packages/IPython/core/extensions.py\", line 91, in _load_extension\n"}
+,{"stream_name":"stderr","time":12.440559426,"data":"    mod = import_module(module_str)\n"}
+,{"stream_name":"stderr","time":12.440563178,"data":"  File \"/opt/conda/lib/python3.10/importlib/__init__.py\", line 126, in import_module\n"}
+,{"stream_name":"stderr","time":12.440567164,"data":"    return _bootstrap._gcd_import(name[level:], package, level)\n"}
+,{"stream_name":"stderr","time":12.440570887,"data":"  File \"\u003cfrozen importlib._bootstrap\u003e\", line 1050, in _gcd_import\n"}
+,{"stream_name":"stderr","time":12.440575314,"data":"  File \"\u003cfrozen importlib._bootstrap\u003e\", line 1027, in _find_and_load\n"}
+,{"stream_name":"stderr","time":12.440579255,"data":"  File \"\u003cfrozen importlib._bootstrap\u003e\", line 1004, in _find_and_load_unlocked\n"}
+,{"stream_name":"stderr","time":12.440583239,"data":"ModuleNotFoundError: No module named 'bq_stats'\n"}
+,{"stream_name":"stderr","time":52.143091121,"data":"/opt/conda/lib/python3.10/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version \u003e=1.16.5 and \u003c1.23.0 is required for this version of SciPy (detected version 1.23.5\n"}
+,{"stream_name":"stderr","time":52.143902337,"data":"  warnings.warn(f\"A NumPy version \u003e={np_minversion} and \u003c{np_maxversion}\"\n"}
+,{"stream_name":"stderr","time":55.934208806,"data":"/opt/conda/lib/python3.10/site-packages/tensorflow_io/python/ops/__init__.py:98: UserWarning: unable to load libtensorflow_io_plugins.so: unable to open file: libtensorflow_io_plugins.so, from paths: ['/opt/conda/lib/python3.10/site-packages/tensorflow_io/python/ops/libtensorflow_io_plugins.so']\n"}
+,{"stream_name":"stderr","time":55.934238691,"data":"caused by: ['/opt/conda/lib/python3.10/site-packages/tensorflow_io/python/ops/libtensorflow_io_plugins.so: undefined symbol: _ZN3tsl6StatusC1EN10tensorflow5error4CodeESt17basic_string_viewIcSt11char_traitsIcEENS_14SourceLocationE']\n"}
+,{"stream_name":"stderr","time":55.934244157,"data":"  warnings.warn(f\"unable to load libtensorflow_io_plugins.so: {e}\")\n"}
+,{"stream_name":"stderr","time":55.934248403,"data":"/opt/conda/lib/python3.10/site-packages/tensorflow_io/python/ops/__init__.py:104: UserWarning: file system plugins are not loaded: unable to open file: libtensorflow_io.so, from paths: ['/opt/conda/lib/python3.10/site-packages/tensorflow_io/python/ops/libtensorflow_io.so']\n"}
+,{"stream_name":"stderr","time":55.934252682,"data":"caused by: ['/opt/conda/lib/python3.10/site-packages/tensorflow_io/python/ops/libtensorflow_io.so: undefined symbol: _ZTVN10tensorflow13GcsFileSystemE']\n"}
+,{"stream_name":"stderr","time":55.934256777,"data":"  warnings.warn(f\"file system plugins are not loaded: {e}\")\n"}
+,{"stream_name":"stderr","time":587.272995161,"data":"/opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":587.273135596,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":587.277277612,"data":"[NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.\n"}
+,{"stream_name":"stderr","time":587.313982943,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":587.825987469,"data":"[NbConvertApp] Writing 18387 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":589.885755078,"data":"/opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":589.885811349,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":589.890056094,"data":"[NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.\n"}
+,{"stream_name":"stderr","time":589.93481659,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":591.03430698,"data":"[NbConvertApp] Writing 291618 bytes to __results__.html\n"}
+]
