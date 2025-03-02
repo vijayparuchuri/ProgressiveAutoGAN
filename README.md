@@ -92,6 +92,9 @@ The training process involves:
 3. Fade-in of new layers for stable transition
 4. Fine-tuning at each resolution
 
+## Tuned 8x8 sample output
+![image](https://github.com/vijayparuchuri/ProgressiveAutoGAN/blob/main/results/plot_008x008-tuned.png)
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
