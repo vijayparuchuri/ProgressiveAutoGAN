@@ -1,7 +1,8 @@
-# Novel Car Design Generation using Progressive Growing GANs
+# Progressive Growing GAN implementation and training
 
 This project implements Progressive Growing GANs (PGGANs) to generate novel car designs. The model progressively grows both the generator and discriminator, starting from low-resolution images and incrementally adding layers to produce higher-resolution results.
-
+![image](https://github.com/user-attachments/assets/217a1199-4e98-4a77-9839-91bf037f9f54)
+Source: Progressive Growing of GANs paper: [arXiv:1710.10196](https://arxiv.org/abs/1710.10196)
 ## Overview
 
 Progressive Growing of GANs is a technique that starts with generating low-resolution images (4x4) and gradually increases the resolution by adding layers to both generator and discriminator networks. This approach provides more stable training and can generate high-quality images up to 128x128 resolution.
@@ -26,28 +27,12 @@ scikit-image
 opencv-python
 ```
 
-## Project Structure
-
-```
-Novel-Car-Design-Generation-using-Progressive-Growing-GANs/
-├── src/
-│   ├── data_preprocessing.py
-│   ├── model.py
-│   ├── train.py
-│   └── inference.py
-├── data/
-│   └── car_images/
-├── checkpoints/
-├── requirements.txt
-└── README.md
-```
-
 ## Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/Novel-Car-Design-Generation-using-Progressive-Growing-GANs.git
-cd Novel-Car-Design-Generation-using-Progressive-Growing-GANs
+git clone https://github.com/vijayparuchuri/ProgressiveAutoGAN.git
+cd ProgressiveAutoGAN
 ```
 
 2. Install dependencies:
@@ -107,10 +92,6 @@ The training process involves:
 3. Fade-in of new layers for stable transition
 4. Fine-tuning at each resolution
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
@@ -118,4 +99,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Acknowledgments
 
 - Original Progressive Growing of GANs paper: [arXiv:1710.10196](https://arxiv.org/abs/1710.10196)
-- Car dataset source: [Your dataset source]
+- Car dataset source: [Car Connection Picture Dataset](https://github.com/nicolas-gervais/predicting-car-price-from-scraped-data/tree/master/picture-scraper)
